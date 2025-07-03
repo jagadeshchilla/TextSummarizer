@@ -1,2 +1,33 @@
+# Ignore research notebooks that might contain tokens
+research/textsummarizer.ipynb
+
+# Ignore logs
+logs/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Ignore virtual environment
 venv/
+env/
+ENV/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore model files (too large for git)
+*.bin
+*.safetensors
 artifacts/
