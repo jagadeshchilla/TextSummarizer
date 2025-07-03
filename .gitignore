@@ -1,5 +1,4 @@
-# Ignore research notebooks that might contain tokens
-research/textsummarizer.ipynb
+
 
 # Ignore logs
 logs/
